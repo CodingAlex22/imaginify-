@@ -32,8 +32,8 @@ const ImageSchema = new Schema({
     prompt: { type: String },
     author: { 
         _id: string,
-        firstName: string;
-        lastName: string;
+        firstName: string,
+        lastName: string,
 
     },
     createdAt: { type: Date, default: Date.now },
